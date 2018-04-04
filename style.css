@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'orange_juiceregular';
+    src: url('orange_juice_2.0-webfont.woff2') format('woff2'),
+         url('orange_juice_2.0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'minnieregular';
+    src: url('minnie-webfont.woff2') format('woff2'),
+         url('minnie-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 150px;
+	margin-top: 3vh;
+	margin-bottom: 1vh;
+	margin:auto;
+}
+
+.row{
+	margin-bottom: 4vh;
+	margin-left: 3vw;
+	margin-right: 3vw;
+}
+
+.btn{
+	font-family: "minnieregular";
+	font-size: 16px;
+	background-color: #1c5677;
+	color: white;
+	padding: 1vh 1vw;
+}
+
+.btn:hover{
+	color: #efad07;
+}
+
+.btn:focus{
+	outline: 2px solid #efad07 !important;
+	background-color: #1680bc;
+	color: #efad07;
+}
+
+.giphy-button{
+	margin: .5vh 1vw;
+}
+
+.comic-sans-font{
+	font-family: "Comic Sans MS";
+	font-size: 18px;
+	font-weight: 800;
+	color: black;
+}
+
+.gif-image{
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+}
+
+.individual-gif-container{
+	float: left;
+	margin: 2vh 3vw 2vh 3vw;
+}
+
+#submit{
+	margin-top: 1.5vh;
+}
+
+#giphy-show{
+	margin-top: 1.5vh;
+	width: 100%;
+}
+
+#giphy-show:focus{
+	outline: 2px solid #efad07 !important;
+}
+
+#gif-container{
+	font-size: 22px;
+}
